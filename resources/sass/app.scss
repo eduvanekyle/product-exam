@@ -1,0 +1,50 @@
+@use 'bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+$blue: #006abf;
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F3E0 !important;
+}
+
+.bg-blue {
+    background-color: #006abf !important;
+}
+
+.bg-beige {
+    background-color: #F3F3E0 !important;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.products {    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.form {
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+// .product-table-container {
+//     border: 1px solid #ccc;
+//     border-radius: 10px;
+//     margin-top: 20px;
+//     padding: 20px;
+// }
+
+.product-table {
+    margin-top: 20px;
+}
+
+.action {
+    width: 100px
+}
