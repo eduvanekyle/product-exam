@@ -6,7 +6,8 @@ $blue: #006abf;
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #F3F3E0 !important;
+    background-color: #DFF2EB !important;
+    color: #1e2838;
 }
 
 .bg-blue {
@@ -32,14 +33,27 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
+    width: 50%;
+    background-color: #7AB2D3;
+    color: #1e2838;
 }
 
-// .product-table-container {
-//     border: 1px solid #ccc;
-//     border-radius: 10px;
-//     margin-top: 20px;
-//     padding: 20px;
-// }
+.form-button {
+    width: 100%;
+    background-color: #4A628A !important;
+    color: whitesmoke !important;
+}
+
+.form-button:hover {
+    background-color: #3a4a6a !important;
+    color: whitesmoke !important;
+}
+
+.product-table-container {
+    margin-top: 50px;
+    border-top: 2px solid #1e2838;
+    text-align: center;
+}
 
 .product-table {
     margin-top: 20px;
@@ -48,3 +62,25 @@ body {
 .action {
     width: 100px
 }
+
+.action button {
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.quantity-cell {
+    width: 20px;
+}
+
+.price-cell {
+    width: 1000px;
+    max-width: 120px;
+}
+
+.product-table input {
+    height: 100%;
+}
+
+// .button-container-block {
+//     display: flex;;
+// }
