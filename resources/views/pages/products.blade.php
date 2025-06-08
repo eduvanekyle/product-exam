@@ -8,7 +8,7 @@
             {{-- <h1 class="fw-bold text-center">Products</h1> --}}
         </div>
 
-        <div class="form">
+        <div class="form shadow-sm">
             <h3 class="fw-bold mb-4">Add a Product</h3>
             @include('partials.product-form')
         </div>

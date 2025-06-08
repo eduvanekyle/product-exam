@@ -166,10 +166,10 @@ document.querySelectorAll('.product-update-form').forEach(form => {
 
                         nameCell.textContent = data.product.name;
                         quantityCell.textContent = data.product.quantity;
-                        priceCell.textContent = `₱ ${Number(data.product.price).toFixed(2)}`;
+                        priceCell.textContent = `₱ ${Number(data.product.price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
                         oldValue = valueCell.textContent;
                         oldValueFloat = parseFloat(oldValue.replace(/,/g, ''));
-                        valueCell.textContent = `${(data.product.quantity * data.product.price).toFixed(2)}`;
+                        valueCell.textContent = `${Number(data.product.quantity * data.product.price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 
                         const totalCell = document.getElementById('total-value');
                         const addedValue = (data.product.quantity * data.product.price) - oldValueFloat;
